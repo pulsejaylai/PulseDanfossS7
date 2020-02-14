@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.SN"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="SN" Height="121.122" Width="457.333" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+    <Grid HorizontalAlignment="Left" Height="66" Margin="72,15,0,-10.333" VerticalAlignment="Top" Width="253">
+        <TextBox x:Name="sn" HorizontalAlignment="Left" Height="18" Margin="35,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" KeyDown="Sn_KeyDown"/>
+        <Button Name="SNOK" Content="OK" HorizontalAlignment="Left" Height="19" Margin="78,40,0,0" VerticalAlignment="Top" Width="49" Click="SNOK_Click"/>
+    </Grid>
+
+</Window>

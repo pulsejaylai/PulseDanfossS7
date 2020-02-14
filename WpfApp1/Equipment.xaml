@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp1.Equipment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Equipment" Height="650" Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0,16,0.333,15.667">
+        <ComboBox Name="motoradd" HorizontalAlignment="Left" Height="20" Margin="210,64,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="add"  SelectedValuePath="ID"/>
+        <Label  Content="StepMotor" HorizontalAlignment="Left" Height="30" Margin="94,59,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="keiadd" HorizontalAlignment="Left" Height="20" Margin="210,112,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="add"  SelectedValuePath="ID"/>
+        <Label  Content="keithley" HorizontalAlignment="Left" Height="35" Margin="94,103,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="pow1add" HorizontalAlignment="Left" Height="20" Margin="210,160,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="add"  SelectedValuePath="ID"/>
+        <Label  Content="Pow1" HorizontalAlignment="Left" Height="30" Margin="94,151,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="pow2add" HorizontalAlignment="Left" Height="20" Margin="210,216,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="add"  SelectedValuePath="ID"/>
+        <Label  Content="Pow2" HorizontalAlignment="Left" Height="30" Margin="94,211,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="nc1add" HorizontalAlignment="Left" Height="20" Margin="210,276,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="addw"  SelectedValuePath="IDW"/>
+        <Label  Content="NC1" HorizontalAlignment="Left" Height="30" Margin="94,271,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="no2add" HorizontalAlignment="Left" Height="20" Margin="210,324,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="addw"  SelectedValuePath="IDW"/>
+        <Label  Content="NO2" HorizontalAlignment="Left" Height="30" Margin="94,315,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="nc3add" HorizontalAlignment="Left" Height="20" Margin="210,380,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="addw"  SelectedValuePath="IDW"/>
+        <Label  Content="NC3" HorizontalAlignment="Left" Height="30" Margin="94,371,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="no4add" HorizontalAlignment="Left" Height="20" Margin="210,432,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="addw"  SelectedValuePath="IDW"/>
+        <Label  Content="NO4" HorizontalAlignment="Left" Height="30" Margin="94,419,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <ComboBox Name="ledadd" HorizontalAlignment="Left" Height="20" Margin="210,488,0,0" VerticalAlignment="Top" Width="311" DisplayMemberPath="addw"  SelectedValuePath="IDW"/>
+        <Label  Content="LED" HorizontalAlignment="Left" Height="30" Margin="94,479,0,0" VerticalAlignment="Top" Width="108" Foreground="Blue" FontSize="20" FontStyle="Normal" FontWeight="DemiBold" FontFamily="./#仿宋_GB2312"/>
+        <Button Name="Writeini" Content="OK" HorizontalAlignment="Left" Height="35" Margin="244,529,0,0" VerticalAlignment="Top" Width="176" Click="Writeini_Click"/>
+
+
+
+
+
+    </Grid>
+</Window>

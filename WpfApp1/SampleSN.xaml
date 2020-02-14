@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.SampleSN"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="SampleSN" Height="383.853" Width="800" Loaded="Window_Loaded" ResizeMode="CanMinimize" KeyDown="Window_KeyDown">
+    <Grid Margin="56,0,30.333,58.667">
+        <TextBox Name="SMSNINPUT" HorizontalAlignment="Left" Height="54" Margin="68,63,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="521"/>
+        <Button Name="SMSN" Content="OK" HorizontalAlignment="Left" Height="47" Margin="180,163,0,0" VerticalAlignment="Top" Width="185" Click="SMSN_Click"/>
+
+    </Grid>
+</Window>
